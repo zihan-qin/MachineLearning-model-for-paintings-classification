@@ -18,8 +18,8 @@ from pyspark import SparkConf, SparkContext
 from pyspark.sql import SparkSession
 from multiprocessing import Pool
 
-AWS_ACCESS_KEY_ID = "AKIA3UZI2QOSQSCCDTM4"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = "*"
+AWS_SECRET_ACCESS_KEY = "*"
 
 spark = SparkSession.builder\
             .config("spark.hadoop.fs.s3a.access.key", AWS_ACCESS_KEY_ID)\
