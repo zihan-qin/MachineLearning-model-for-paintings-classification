@@ -57,8 +57,8 @@ if __name__ == "__main__":
         name = "albrecht-durer_abduction"
     else:
         name = sys.argv[1]
-    AWS_ACCESS_KEY_ID = "AKIA3UZI2QOSQSCCDTM4"
-    AWS_SECRET_ACCESS_KEY = "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"
+    AWS_ACCESS_KEY_ID = "*"
+    AWS_SECRET_ACCESS_KEY = "*"
     spark = SparkSession.builder\
                 .config("spark.hadoop.fs.s3a.access.key", AWS_ACCESS_KEY_ID)\
                 .config("spark.hadoop.fs.s3a.secret.key", AWS_SECRET_ACCESS_KEY)\
